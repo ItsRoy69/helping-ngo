@@ -1,0 +1,21 @@
+#Navbarrr {
+    padding-left: 30px;
+    padding-right: 50px;
+    /* background-color: #96BAFF; */
+}
+
+
+.navbar {
+    font-size: 1em;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+#nb {
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-item {
+    padding-right: 15px;
+}
