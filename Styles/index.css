@@ -135,6 +135,7 @@ img {
     display: block;
     position: relative;
     z-index: 1;
+    text-decoration: none;
 }
 
 .Yearly-timeline .timeline-content:before {
