@@ -107,12 +107,91 @@ span {
 .card {
     width: 60%;
     margin-right: 30px;
-    display: inline-block;
+    display: inline-flex;
+    border: 0.5px solid black;
+    border-radius: 2px;
 }
 
 .card img {
     border-radius: 80%;
-    height: 200px;
-    width: 200px;
-
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left: 65px;
+    top: 10px;
+    margin-bottom: 20px;
 }
+
+.card-body {
+    background-color: white;
+}
+
+.c1 {
+    background-color: #657dd5;
+}
+
+.c2 {
+    background-color: chocolate;
+}
+
+.c3 {
+    background-color: darkgreen;
+}
+
+.c4 {
+    background-color: darkorchid;
+}
+
+.card i {
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 1.3rem;
+}
+
+
+/* Footer section */
+/* Footer Links */
+footer {
+    margin-top: 80px;
+}
+
+#footer {
+    background: #008dc9;
+    ;
+    padding: 60px 0 40px;
+    padding-left: 450px;
+}
+
+#footer p {
+    color: white;
+    font-size: 14px;
+}
+
+#footer p a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#footer p a:hover,
+#footer p a:active,
+#footer p a:focus {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+
+.fh5co-social-icons>a {
+    padding: 4px 10px;
+    color: #ff5722;
+}
+
+.fh5co-social-icons>a i {
+    font-size: 26px;
+}
+
+.fh5co-social-icons>a:hover,
+.fh5co-social-icons>a:focus,
+.fh5co-social-icons>a:active {
+    text-decoration: none;
+    color: #5a5a5a;
+}
+
+/* Footer end */

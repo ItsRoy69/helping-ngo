@@ -611,6 +611,7 @@ img {
     color: #5a5a5a;
 }
 
+/* Footer end */
 
 
 
@@ -618,8 +619,7 @@ img {
 
 
 
-
-.container {
+.clubs-card .container {
     width: 1000px;
     display: flex;
     flex-wrap: wrap;
