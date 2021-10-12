@@ -85,3 +85,34 @@ span {
     font-size: 1.1rem;
     font-weight: 600;
 }
+
+/* ----------- */
+
+.teams {
+    position: relative;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.teams h1 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 4rem;
+    margin-bottom: 32px;
+    color: #657dd5;
+    font-weight: 600;
+
+}
+
+.card {
+    width: 60%;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.card img {
+    border-radius: 80%;
+    height: 200px;
+    width: 200px;
+
+}
