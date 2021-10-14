@@ -1,0 +1,114 @@
+#Navbarrr {
+    padding-left: 30px;
+    padding-right: 50px;
+    /* background-color: #96BAFF; */
+    position: relative;
+}
+
+
+.navbar {
+    font-size: 1em;
+    font-family: 'ABeeZee', sans-serif;
+    position: relative;
+}
+
+.navbar.sticky {
+    padding: 15px 0;
+    background: white;
+}
+
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+#nb {
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-item {
+    padding-right: 15px;
+}
+
+.contact-parent h1 {
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'Josefin Sans', sans-serif;
+    /* margin-left: 50px; */
+    font-size: 3.3rem;
+    margin-top: 60px;
+    text-align: center;
+
+}
+
+.contact-parent h6 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-parent img {
+    width: 450px;
+    height: 400px;
+    position: relative;
+    z-index: -1;
+    bottom: 50px;
+    left: 20px;
+}
+
+#form_message {
+    height: 150px;
+}
+
+.form-control {
+    width: 80%;
+}
+
+
+/* Footer Links */
+footer {
+    margin-top: 50px;
+}
+
+#footer {
+    background: #008dc9;
+    ;
+    padding: 60px 0 40px;
+    padding-left: 450px;
+}
+
+#footer p {
+    color: white;
+    font-size: 14px;
+}
+
+#footer p a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#footer p a:hover,
+#footer p a:active,
+#footer p a:focus {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+
+.fh5co-social-icons>a {
+    padding: 4px 10px;
+    color: #ff5722;
+}
+
+.fh5co-social-icons>a i {
+    font-size: 26px;
+}
+
+.fh5co-social-icons>a:hover,
+.fh5co-social-icons>a:focus,
+.fh5co-social-icons>a:active {
+    text-decoration: none;
+    color: #5a5a5a;
+}
