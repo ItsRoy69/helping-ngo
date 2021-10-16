@@ -199,6 +199,8 @@ footer {
 
 
 
+
+
 /* custom scroll bar */
 ::-webkit-scrollbar {
   width: 10px;
@@ -245,3 +247,4 @@ footer {
 .scroll-up-btn:hover {
   filter: brightness(90%);
 }
+
