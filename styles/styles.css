@@ -1,16 +1,16 @@
-
 #Navbarrr {
-    padding-left: 30px;
-    padding-right: 50px;
-    /* background-color: #96BAFF; */
-    position: relative;
+  padding-left: 30px;
+  padding-right: 50px;
+  background-color: #dbffe5;
+  position: relative;
+
 }
 
 
 .navbar {
-    font-size: 1em;
-    font-family: 'ABeeZee', sans-serif;
-    position: relative;
+  font-size: 1em;
+  font-family: 'ABeeZee', sans-serif;
+  position: relative;
 }
 
 .navbar.sticky {
@@ -28,13 +28,13 @@
 
 
 #nb {
-    font-size: 30px;
-    font-family: 'Ubuntu', sans-serif;
-    color: rgba(0, 0, 0, 0.5);
+  font-size: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .nav-item {
-    padding-right: 15px;
+  padding-right: 15px;
 }
 
 
@@ -46,15 +46,19 @@
   position: relative;
   height: 800px;
 }
+
 @media screen and (max-width: 768px) {
+
   .fh5co-cover,
   .fh5co-hero {
     height: 700px;
   }
 }
+
 .fh5co-cover.fh5co-hero {
   height: 600px;
 }
+
 .fh5co-cover.fh5co-overlay,
 .fh5co-hero.fh5co-overlay {
   position: absolute !important;
@@ -83,25 +87,30 @@
   background-size: cover;
   position: relative;
 }
+
 @media screen and (max-width: 768px) {
   .fh5co-cover {
     height: inherit;
     padding: 3em 0;
   }
 }
+
 .fh5co-cover .btn {
   padding: 1em 2em;
   opacity: .9;
 }
+
 .fh5co-cover.fh5co-cover_2 {
   height: 600px;
 }
+
 @media screen and (max-width: 768px) {
   .fh5co-cover {
     height: inherit;
     padding: 3em 0;
   }
 }
+
 .fh5co-cover .desc {
   top: 50%;
   position: absolute;
@@ -110,12 +119,14 @@
   z-index: 2;
   color: #fff;
 }
+
 @media screen and (max-width: 768px) {
   .fh5co-cover .desc {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
+
 .fh5co-cover .desc h2 {
   color: #fff;
   text-transform: uppercase;
@@ -123,6 +134,7 @@
   margin-bottom: 10px;
   font-weight: 300 !important;
 }
+
 .fh5co-cover .desc h2 strong {
   font-weight: 700;
 }
@@ -130,198 +142,208 @@
 
 /* TIMELINE STYLE START */
 .Yearly-timeline {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .Yearly-timeline:after {
-    content: '';
-    display: block;
-    clear: both;
+  content: '';
+  display: block;
+  clear: both;
 }
 
 .Yearly-timeline .timeline {
-    width: calc(50% + 17px);
-    padding: 0 30px 30px 0;
-    float: left;
-    position: relative;
+  width: calc(50% + 17px);
+  padding: 0 30px 30px 0;
+  float: left;
+  position: relative;
 }
 
 .Yearly-timeline .timeline:before,
 .Yearly-timeline .timeline:after {
-    content: '';
-    height: 60px;
-    width: 2px;
-    border-left: 2px solid #70d6ff;
-    transform: rotate(-45deg);
-    position: absolute;
-    right: 30px;
-    bottom: 0;
+  content: '';
+  height: 60px;
+  width: 2px;
+  border-left: 2px solid #70d6ff;
+  transform: rotate(-45deg);
+  position: absolute;
+  right: 30px;
+  bottom: 0;
 }
 
 .Yearly-timeline .timeline:after {
-    background-color: #fff;
-    height: 20px;
-    width: 20px;
-    border: 6px solid #70d6ff;
-    border-radius: 50%;
-    right: 0;
+  background-color: #fff;
+  height: 20px;
+  width: 20px;
+  border: 6px solid #70d6ff;
+  border-radius: 50%;
+  right: 0;
 }
 
 .Yearly-timeline .timeline-content {
-    color: #555;
-    background: #70d6ff;
-    text-align: center;
-    min-height: 170px;
-    padding: 30px 35px 35px;
-    border-radius: 15px 15px 0 15px;
-    display: block;
-    position: relative;
-    z-index: 1;
-    text-decoration: none;
+  color: #555;
+  background: #70d6ff;
+  text-align: center;
+  min-height: 170px;
+  padding: 30px 35px 35px;
+  border-radius: 15px 15px 0 15px;
+  display: block;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
 }
 
 .Yearly-timeline .timeline-content:before {
-    content: '';
-    background-color: #fff;
-    position: absolute;
-    left: 17px;
-    right: 17px;
-    top: 17px;
-    bottom: 17px;
-    z-index: -1;
+  content: '';
+  background-color: #fff;
+  position: absolute;
+  left: 17px;
+  right: 17px;
+  top: 17px;
+  bottom: 17px;
+  z-index: -1;
 }
 
 .Yearly-timeline .timeline-content:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .Yearly-timeline .timeline-icon {
-    color: #777;
-    font-size: 35px;
+  color: #777;
+  font-size: 35px;
 }
 
 .Yearly-timeline .title {
-    font-size: 22px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin: 0 0 8px;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0 0 8px;
 }
 
 .Yearly-timeline .description {
-    color: #777;
-    font-size: 13px;
-    font-weight: 400;
-    letter-spacing: 0.5px;
-    line-height: 18px;
-    margin: 0;
+  color: #777;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 18px;
+  margin: 0;
 }
 
 .Yearly-timeline .timeline:nth-child(even) {
-    padding: 0 0 30px 30px;
-    float: right;
+  padding: 0 0 30px 30px;
+  float: right;
 }
 
 .Yearly-timeline .timeline:nth-child(even):before {
-    transform: rotate(45deg);
-    right: auto;
-    left: 30px;
+  transform: rotate(45deg);
+  right: auto;
+  left: 30px;
 }
 
 .Yearly-timeline .timeline:nth-child(even):after {
-    right: auto;
-    left: 0;
+  right: auto;
+  left: 0;
 }
 
 .Yearly-timeline .timeline:nth-child(even) .timeline-content {
-    border-radius: 15px 15px 15px 0;
+  border-radius: 15px 15px 15px 0;
 }
 
 .Yearly-timeline .timeline:nth-child(4n+2):before,
 .Yearly-timeline .timeline:nth-child(4n+2):after {
-    border-color: #ff70a6;
+  border-color: #ff70a6;
 }
 
 .Yearly-timeline .timeline:nth-child(4n+2) .timeline-content {
-    background: #ff70a6;
+  background: #ff70a6;
 }
 
 .Yearly-timeline .timeline:nth-child(4n+3):before,
 .Yearly-timeline .timeline:nth-child(4n+3):after {
-    border-color: #ff9770;
+  border-color: #ff9770;
 }
 
 .Yearly-timeline .timeline:nth-child(4n+3) .timeline-content {
-    background: #ff9770;
+  background: #ff9770;
 }
 
 .Yearly-timeline .timeline:nth-child(4n+4):before,
 .Yearly-timeline .timeline:nth-child(4n+4):after {
-    border-color: #ffd670;
+  border-color: #ffd670;
 }
 
 .Yearly-timeline .timeline:nth-child(4n+4) .timeline-content {
-    background: #ffd670;
+  background: #ffd670;
 }
 
 @media screen and (max-width:767px) {
-    .Yearly-timeline .timeline {
-        width: 100%;
-        padding: 30px 0 0 30px;
-        margin: 0 0 20px;
-    }
+  .Yearly-timeline .timeline {
+    width: 100%;
+    padding: 30px 0 0 30px;
+    margin: 0 0 20px;
+  }
 
-    .Yearly-timeline .timeline:before,
-    .Yearly-timeline .timeline:nth-child(even):before {
-        transform: rotate(-45deg);
-        bottom: auto;
-        top: 0;
-        right: auto;
-        left: 30px;
-    }
+  .Yearly-timeline .timeline:before,
+  .Yearly-timeline .timeline:nth-child(even):before {
+    transform: rotate(-45deg);
+    bottom: auto;
+    top: 0;
+    right: auto;
+    left: 30px;
+  }
 
-    .Yearly-timeline .timeline:after,
-    .Yearly-timeline .timeline:nth-child(even):after {
-        bottom: auto;
-        top: 0;
-        right: auto;
-        left: 0;
-    }
+  .Yearly-timeline .timeline:after,
+  .Yearly-timeline .timeline:nth-child(even):after {
+    bottom: auto;
+    top: 0;
+    right: auto;
+    left: 0;
+  }
 
-    .Yearly-timeline .timeline-content,
-    .Yearly-timeline .timeline:nth-child(even) .timeline-content {
-        border-radius: 0 15px 15px 15px;
-    }
+  .Yearly-timeline .timeline-content,
+  .Yearly-timeline .timeline:nth-child(even) .timeline-content {
+    border-radius: 0 15px 15px 15px;
+  }
 }
 
 
 
 /* Footer Links */
 #footer {
-  background: #008dc9;;
+  background: #008dc9;
+  ;
   padding: 60px 0 40px;
   padding-left: 450px;
 }
+
 #footer p {
   color: white;
   font-size: 14px;
 }
+
 #footer p a {
   color: rgba(255, 255, 255, 0.5);
 }
-#footer p a:hover, #footer p a:active, #footer p a:focus {
+
+#footer p a:hover,
+#footer p a:active,
+#footer p a:focus {
   color: rgba(255, 255, 255, 0.9) !important;
 }
 
 
-.fh5co-social-icons > a {
+.fh5co-social-icons>a {
   padding: 4px 10px;
   color: #ff5722;
 }
-.fh5co-social-icons > a i {
+
+.fh5co-social-icons>a i {
   font-size: 26px;
 }
-.fh5co-social-icons > a:hover, .fh5co-social-icons > a:focus, .fh5co-social-icons > a:active {
+
+.fh5co-social-icons>a:hover,
+.fh5co-social-icons>a:focus,
+.fh5co-social-icons>a:active {
   text-decoration: none;
   color: #5a5a5a;
 }
@@ -378,4 +400,3 @@
 .scroll-up-btn:hover {
   filter: brightness(90%);
 }
-
