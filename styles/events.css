@@ -13,7 +13,6 @@
   padding-right: 50px;
   background-color: #dbffe5;
   position: relative;
-
 }
 
 
@@ -21,6 +20,7 @@
   font-size: 1em;
   font-family: 'ABeeZee', sans-serif;
   position: relative;
+  padding-bottom: 50px;
 }
 
 .navbar.sticky {
@@ -57,22 +57,25 @@
 .events a {
   color: #008000;
   text-decoration: none;
+  padding-top: 10px;
 }
 
 .events a:hover {
   text-decoration: none !important;
   color: #008000 !important;
+  padding-top: 10px;
 }
 
 
 .events a {
   color: #337ab7;
+  padding-top: 10px;
 }
 
 .events a:hover,
 a:focus {
   color: #23527c;
-  text-decoration: underline;
+  padding-top: 10px;
 }
 
 .events a:focus {
@@ -106,6 +109,7 @@ h6 {
 }
 
 h1 {
+  padding-top: 10px;
   color: #008dc9;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -114,7 +118,9 @@ h1 {
 }
 
 #fh5co-blog-section,
-#fh5co-features {}
+#fh5co-features {
+  padding-top: 10px;
+}
 
 @media screen and (max-width: 768px) {
 
@@ -171,6 +177,7 @@ h1 {
 }
 
 .fh5co-blog .blog-text {
+
   margin-bottom: 30px;
   position: relative;
   background: #fff;
@@ -336,4 +343,47 @@ h1 {
 
 .scroll-up-btn:hover {
   filter: brightness(90%);
+}
+
+
+
+
+/* Footer Links */
+#footer {
+  background: #008dc9;
+
+  padding: 60px 0 40px;
+  padding-left: 450px;
+}
+
+#footer p {
+  color: white;
+  font-size: 14px;
+}
+
+#footer p a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#footer p a:hover,
+#footer p a:active,
+#footer p a:focus {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+
+.fh5co-social-icons>a {
+  padding: 4px 10px;
+  color: #ff5722;
+}
+
+.fh5co-social-icons>a i {
+  font-size: 26px;
+}
+
+.fh5co-social-icons>a:hover,
+.fh5co-social-icons>a:focus,
+.fh5co-social-icons>a:active {
+  text-decoration: none;
+  color: #5a5a5a;
 }
