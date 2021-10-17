@@ -149,9 +149,14 @@
 
 /* Timeline section */
 
-#Sec_3 {
+.Sec_3 {
   background-image: url(../images/concrete_seamless.jpg);
   padding-bottom: 50px;
+}
+
+.Sec_3 .container {
+  padding-left: 15px;
+
 }
 
 .center-line {
@@ -165,17 +170,44 @@
 
 .contents {
 
-  width: 35%;
+  width: 38%;
 
 }
 
 .content_1 {
   /* position: absolute; */
   position: relative;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   top: 50px;
-  left: 70px;
+  left: 100px;
   z-index: 1;
+
+}
+
+.content_head {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  padding-top: 20px;
+  font-weight: 900;
+}
+
+
+
+hr.new1 {
+  border-top: 2px solid #23a5a7;
+}
+
+
+.content_head2 {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 2rem;
+  color: #339a9c;
+}
+
+.content_p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Sarabun', sans-serif;
 }
 
 .img_1 {
@@ -187,11 +219,18 @@
   /* z-index: -1; */
 }
 
-/*
+
 .content_2 {
   position: relative;
   left: 50%;
+  background-color: white;
+  /* top: 50px; */
+  /* left: 70px; */
+  z-index: 1;
 }
+
+/*
+
 
 
 .content_3 {
