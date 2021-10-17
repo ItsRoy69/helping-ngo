@@ -10,7 +10,7 @@ img {
     object-fit: cover;
 }
 
-.fas {
+.fa-user-circle {
     font-size: 1.3rem;
     color: rgba(0, 0, 0, 0.5);
     position: relative;
