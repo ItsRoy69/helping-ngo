@@ -9,6 +9,12 @@ body {
 }
 
 
+.fas {
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 10px;
+}
 
 a {
   color: #008000;

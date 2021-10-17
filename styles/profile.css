@@ -4,6 +4,12 @@ body {
 }
 
 
+.fas {
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 10px;
+}
 
 #Navbarrr {
   padding-left: 30px;
