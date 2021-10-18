@@ -155,52 +155,7 @@ span {
 }
 
 
-/* Footer section */
-/* Footer Links */
-footer {
-    margin-top: 80px;
-}
 
-#footer {
-    background: #008dc9;
-    ;
-    padding: 60px 0 40px;
-    padding-left: 450px;
-}
-
-#footer p {
-    color: white;
-    font-size: 14px;
-}
-
-#footer p a {
-    color: rgba(255, 255, 255, 0.5);
-}
-
-#footer p a:hover,
-#footer p a:active,
-#footer p a:focus {
-    color: rgba(255, 255, 255, 0.9) !important;
-}
-
-
-.fh5co-social-icons>a {
-    padding: 4px 10px;
-    color: #ff5722;
-}
-
-.fh5co-social-icons>a i {
-    font-size: 26px;
-}
-
-.fh5co-social-icons>a:hover,
-.fh5co-social-icons>a:focus,
-.fh5co-social-icons>a:active {
-    text-decoration: none;
-    color: #5a5a5a;
-}
-
-/* Footer end */
 
 
 
