@@ -61,12 +61,14 @@ span
 	color: blanchedalmond;
 	height: 400px;
 	position: relative;
+	
 }
 
 .footer .footer-content
 {
 	height: 350px;
 	display: flex;
+
 }
 
 .footer .footer-content .footer-section
@@ -80,10 +82,7 @@ span
 	color: #22577A;
 }
 
-.footer .footer-content .about h1 span
-{
-	color: #d38107;
-}
+
 
 .footer .footer-content .about .contact span
 {
@@ -99,6 +98,7 @@ span
 	height: 41px;
 	padding-top: 5px;
 	margin-right: 5px;
+	padding: none;
 	text-align: center;
 	display: inline-block;
 	font-size: 1.3em;
@@ -137,7 +137,7 @@ span
 	line-height: 1.5rem;
 	padding: .9rem 1.4rem;
 	border: none;
-  resize: none;
+  	resize: none;
 }
 
 .footer .footer-content .contact-form .contact-input:focus
