@@ -158,8 +158,8 @@ form>.form-row>input:focus:valid {
 }
 
 form>.form-row>button {
-  background-color: #7b5dfa;
-  border: .10em solid #7b5dfa;
+  background-color: #008dc9;
+  border: .10em solid #008dc9;
   color: #fff;
   cursor: pointer;
   font-weight: bold;
