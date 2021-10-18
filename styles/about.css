@@ -51,9 +51,9 @@
     font-family: 'Acme', sans-serif;
 }
 
-.nav-item:hover {
+/* .nav-item:hover {
     border-bottom: 1px solid white;
-}
+} */
 
 .about_img {
     height: 400px;
