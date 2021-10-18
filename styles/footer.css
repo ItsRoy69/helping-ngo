@@ -1,12 +1,5 @@
 /* Footer Section */
 
-.footer h1,h2,h3,h4,h5
-{
-	font-family:'Candal', serif;
-	color: #444;
-	margin: 5px;
-
-}
 .footer p
 {
   color: black;
@@ -141,7 +134,7 @@ span
 }
 
 .footer .footer-content .contact-form .contact-input:focus
-{ 
+{
 	background: white;
 }
 
@@ -166,4 +159,3 @@ span
 }
 
 /* Footer ends */
-
