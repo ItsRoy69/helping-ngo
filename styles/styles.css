@@ -163,7 +163,7 @@
   position: absolute;
   background: #70d6ff;
   width: 3.5px;
-  height: 100%;
+  height: 180%;
   left: 50%;
 
 }
@@ -179,7 +179,7 @@
   position: relative;
   background-color: rgb(255, 255, 255);
   top: 50px;
-  left: 100px;
+  left: 140px;
   z-index: 1;
 
 }
@@ -214,19 +214,27 @@ hr.new1 {
   position: relative;
   height: 400px;
   width: 650px;
-  bottom: 180px;
-  left: 350px;
+  bottom: 160px;
+  left: 380px;
   /* z-index: -1; */
 }
 
 
 .content_2 {
   position: relative;
-  left: 50%;
+  left: 53%;
   background-color: white;
-  /* top: 50px; */
-  /* left: 70px; */
+  bottom: 100px;
+
   z-index: 1;
+}
+
+.img_2 {
+  position: relative;
+  height: 360px;
+  width: 620px;
+  bottom: 190px;
+  left: 240px;
 }
 
 /*
@@ -247,12 +255,6 @@ hr.new1 {
   position: absolute;
   left: 50%;
 } */
-
-
-
-
-
-
 
 /* custom scroll bar */
 ::-webkit-scrollbar {
