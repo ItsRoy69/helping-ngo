@@ -11,45 +11,7 @@ body {
   top: 10px;
 }
 
-#Navbarrr {
-  padding-left: 30px;
-  padding-right: 50px;
-  /* background-color: #96BAFF; */
-  position: relative;
-}
-
-
-.navbar {
-  font-size: 1em;
-  font-family: 'ABeeZee', sans-serif;
-  position: relative;
-}
-
-.navbar.sticky {
-  padding: 15px 0;
-  background: white;
-}
-
-
-.navbar .max-width {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-
-
-#nb {
-  font-size: 30px;
-  font-family: 'Ubuntu', sans-serif;
-  color: rgba(0, 0, 0, 0.5);
-}
-
-.nav-item {
-  padding-right: 15px;
-}
-
-.contact-wrapper {
+.contact1-wrapper {
   background: #fff;
   box-shadow: 13px 13px 2px rgba(0, 0, 0, 0.4);
   border: 0.5px solid black;
@@ -77,18 +39,18 @@ body {
   text-align: center;
 }
 
-form {
+form11 {
   margin: 2em 0;
 }
 
-form>.form-row {
+form1>.form1-row {
   display: -webkit-box;
   display: flex;
   margin: .75em 0;
   position: relative;
 }
 
-form>.form-row>span {
+form1>.form1-row>span {
   background: #fff;
   color: #adafca;
   display: inline-block;
@@ -108,56 +70,56 @@ form>.form-row>span {
   user-select: none;
 }
 
-form>.form-row>input,
-form>.form-row>button {
+form1>.form1-row>input,
+form1>.form1-row>button {
   border-radius: .5em;
   padding: 1em .5em;
   width: 100%;
   font-family: inherit;
 }
 
-form>.form-row>input {
+form1>.form1-row>input {
   font-weight: bold;
   -webkit-transition: 100ms ease all;
   transition: 100ms ease all;
   width: 100%;
 }
 
-form>.form-row>input[type=text],
-form>.form-row>input[type=password] {
+form1>.form1-row>input[type=text],
+form1>.form1-row>input[type=password] {
   border: .075em solid #ddd;
 }
 
-form>.form-row>input:valid+span {
+form1>.form1-row>input:valid+span {
   top: 0;
   font-size: .90rem;
 }
 
-form>.form-row>input:focus+span {
+form1>.form1-row>input:focus+span {
   top: 0;
   color: #7b5dfa;
   font-weight: 600;
 }
 
-form>.form-row>input:required {
+form1>.form1-row>input:required {
   box-shadow: none;
 }
 
-form>.form-row>input:focus {
+form1>.form1-row>input:focus {
   border-color: #7b5dfa;
   outline: none;
 }
 
-form>.form-row>input:focus:invalid {
+form1>.form1-row>input:focus:invalid {
   box-shadow: none;
   top: 50%;
 }
 
-form>.form-row>input:focus:valid {
+form1>.form1-row>input:focus:valid {
   top: 0;
 }
 
-form>.form-row>button {
+form1>.form1-row>button {
   background-color: #008dc9;
   border: .10em solid #008dc9;
   color: #fff;
@@ -166,12 +128,12 @@ form>.form-row>button {
   transition: all 300ms ease;
 }
 
-form>.form-row>button:focus {
+form1>.form1-row>button:focus {
   border: 0.1em solid #533cf8;
   outline: none;
 }
 
-form>.form-row>button:hover {
+form1>.form1-row>button:hover {
   background: #6744f9;
 }
 
@@ -264,7 +226,7 @@ form>.form-row>button:hover {
 }
 
 @media (max-width:767px) {
-  .contact-wrapper {
+  .contact1-wrapper {
     flex-direction: column;
   }
 
