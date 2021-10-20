@@ -246,9 +246,10 @@ hr.new1 {
 
 .img_3 {
   position: relative;
-  height: 400px;
-  width: 550px;
-  left: 50%;
+  height: 350px;
+  width: 500px;
+  left: 40%;
+  bottom: 100px;
 }
 
 /*
