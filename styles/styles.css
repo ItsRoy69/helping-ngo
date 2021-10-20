@@ -163,7 +163,7 @@
   position: absolute;
   background: #70d6ff;
   width: 3.5px;
-  height: 180%;
+  height: 300%;
   left: 50%;
 
 }
@@ -214,7 +214,7 @@ hr.new1 {
   position: relative;
   height: 400px;
   width: 650px;
-  bottom: 160px;
+  bottom: 170px;
   left: 380px;
   /* z-index: -1; */
 }
@@ -224,7 +224,7 @@ hr.new1 {
   position: relative;
   left: 53%;
   background-color: white;
-  bottom: 100px;
+  bottom: 130px;
 
   z-index: 1;
 }
@@ -237,14 +237,25 @@ hr.new1 {
   left: 240px;
 }
 
+.content_3 {
+  position: relative;
+  background-color: white;
+  bottom: 100px;
+  left: 10%;
+}
+
+.img_3 {
+  position: relative;
+  height: 400px;
+  width: 550px;
+  left: 50%;
+}
+
 /*
 
 
 
-.content_3 {
-  position: absolute;
-  left: 50%;
-}
+
 
 .content_4 {
   position: absolute;
