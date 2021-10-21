@@ -217,6 +217,11 @@ form1>.form1-row>button:hover {
   transform: translateY(-0.50em);
 }
 
+.pass {
+  position: relative;
+  left: 65%;
+}
+
 @media (max-width:992px) {
 
   .socials-wrapper>h2:after,
