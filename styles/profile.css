@@ -97,7 +97,7 @@ form1>.form1-row>input:valid+span {
 
 form1>.form1-row>input:focus+span {
   top: 0;
-  color: #7b5dfa;
+  color: #408DDD;
   font-weight: 600;
 }
 
@@ -106,7 +106,7 @@ form1>.form1-row>input:required {
 }
 
 form1>.form1-row>input:focus {
-  border-color: #7b5dfa;
+  border-color: #408DDD;
   outline: none;
 }
 
@@ -129,12 +129,12 @@ form1>.form1-row>button {
 }
 
 form1>.form1-row>button:focus {
-  border: 0.1em solid #533cf8;
+  border: 0.1em solid #408DDD;
   outline: none;
 }
 
 form1>.form1-row>button:hover {
-  background: #6744f9;
+  background: #408DDD;
 }
 
 .socials-wrapper>h2 {
