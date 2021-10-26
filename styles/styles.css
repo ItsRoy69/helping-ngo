@@ -163,7 +163,7 @@
   position: absolute;
   background: #70d6ff;
   width: 3.5px;
-  height: 300%;
+  height: 162rem;
   left: 50%;
 
 }
@@ -172,6 +172,23 @@
 
   width: 38%;
 
+}
+
+.content_0 {
+  /* position: absolute; */
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  top: 50px;
+  left: 53%;
+  z-index: 1;
+
+}
+
+.img_0 {
+  position: relative;
+  height: 400px;
+  width: 650px;
+  left: 18%;
 }
 
 .content_1 {
